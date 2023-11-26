@@ -1,4 +1,13 @@
 /* Navbar */
+:root {
+  --primary-color: black !important;
+  --secondary-color: black !important;
+}
+
+
+
+
+
 .mobile-nav {
   color: #000 !important;
   text-align: center;
@@ -51,6 +60,16 @@
 .swiper-pagination-bullet {
   background-color: black !important;
 }
+
+/* Steps section */
+.custom-border {
+  border: 1px solid black;
+}
+
+
+
+
+
 
 /* Contact page */
 .contact-section {
@@ -188,8 +207,6 @@
   width: 100%;
 }
 
-
-
 @media (min-width: 679px) and (max-width: 1279px) {
   .hero-2-txt {
     margin-top: 90px;
@@ -200,8 +217,6 @@
   }
   
 }
-
-
 @media (max-width: 678px) {
   .hero-2-txt {
     margin-top: 150px;
@@ -211,7 +226,6 @@
     margin-top: 30px;
   }
 }
-
 
 
 @media (max-width: 991px) {
